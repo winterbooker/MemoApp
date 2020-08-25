@@ -23,7 +23,7 @@ class MemoListScreen extends React.Component {
         this.setState({ memoList });
       });
   }
-  
+
   handlePress() {
     this.props.navigation.navigate('MemoCreate');
   }
